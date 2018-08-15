@@ -3,7 +3,7 @@ Homebrew tap for Survex cave survey tool
 
 To tap this repository:
 
-`brew tap RobDeBagel/homebrew-survex`
+`brew tap ArrEssJay/homebrew-survex`
 
 Then install Survex:
 
