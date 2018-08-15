@@ -28,7 +28,6 @@ class Survex < Formula
     ln_s ["#{bin}/aven", "#{bin}/cavern", "#{bin}/extend"], "Aven.app/Contents/MacOS"
 
     prefix.install "Aven.app"
-    caveats "Blah"
   end
 
   test do
