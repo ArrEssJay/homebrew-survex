@@ -30,6 +30,13 @@ class Survex < Formula
     prefix.install "Aven.app"
   end
 
+  def caveats; <<~EOS
+    Aven.app has been installed into #{prefix}. It can be manually linked into
+    the 'Applications' folder by running:
+      ln -s #{prefix}/Aven.app /Applications/Aven.app
+  EOS
+  end
+
   test do
     (testpath/"test.svx").write <<~EOS
       *begin test
